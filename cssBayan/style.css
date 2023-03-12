@@ -1,0 +1,40 @@
+img {
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-main {
+  text-align: center;
+}
+
+.accordion {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.accordion-item {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.accordion-header:hover {
+  background-color: #e9b663;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+}
+
