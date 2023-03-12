@@ -9,6 +9,6 @@ accordionItems.forEach(item => {
       content.style.display = 'none';
     } else {
       content.style.display = 'block';
-    }
+    } 
   });
 });
